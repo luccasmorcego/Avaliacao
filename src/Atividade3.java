@@ -35,6 +35,6 @@ public class Atividade3 {
         }
         System.out.println("A quantidade de filmes avaliados como bons é: " + maiorSeis);
         System.out.println("A quantidade de filmes avaliados como ruins é: " + menorSeis);
-        System.out.println("A quantidade de notas inválidas (fora do intervalo 010) é " + invalidos);
+        System.out.println("A quantidade de notas inválidas (fora do intervalo 0 a 10) é " + invalidos);
     }
 }
