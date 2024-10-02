@@ -13,7 +13,7 @@ public class Atividade3 {
         int media = 0;
 
         for(int i = 1; i <= quantidade; i++){
-            System.out.println("Me diga a avaliação do filmes " + i);
+            System.out.println("Me diga a avaliação dos filmes " + i);
             filmes[i-1] = input.nextInt();
             soma += filmes[i-1];
         }
@@ -35,6 +35,6 @@ public class Atividade3 {
         }
         System.out.println("A quantidade de filmes avaliados como bons é: " + maiorSeis);
         System.out.println("A quantidade de filmes avaliados como ruins é: " + menorSeis);
-        System.out.println("A quantidade de notas inválidas (fora do intervalo 0 a 10) é " + invalidos);
+        System.out.println("A quantidade de notas inválidas (fora do intervalo 010) é " + invalidos);
     }
 }
